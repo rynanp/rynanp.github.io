@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><head>
+    <style>
+        #Instagram {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+            border-radius: 50%;
+        }
+
+        #Facebook {
+            background-color: #4267b3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+
+        #Whatsapp {
+            background-color: #25d366;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Córnea</title>
+</head>
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <img src="image/logoCornea.png" class="logoCornea">
+                </div>
+
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Quem pode doar</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Transplante</a></li>
+                    </ul>
+                </div>
+
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="./image/icons8-menu.svg" ></button>
+                </div>
+            </nav>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="index.html.containerproje" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Quem pode doar</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">transplante</a></li>
+                </ul>
+
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+            </div>
+        </header>
+        <script src="./js/script.js"></script>
+
+        <section class="containerproje">
+            <div class="slide-container active">
+                <div class="slide">
+                    <div class="contentproje">
+                        <h3>O que é a Córnea?</h3>
+                        <p><span class="textoCornea">A córnea é um tecido translúcido, fino e resistente localizado na superfície do olho. Por revestir o globo ocular, 
+                            ela se torna a primeira interface que a luz atravessa. Desse modo, além de proteger os olhos de ameaças 
+                            externas, a córnea funciona como uma porta de entrada para a luz, que será focalizada primeiro por essa 
+                            membrana. Outras partes do olho responsáveis pelo foco são a íris e a pupila, e só depois de passar por elas
+                             a imagem chegará ao destino final: a retina.</span> </p>
+                        <a href="#" class="bntproj">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="contentproje">
+                        <h3>Como é feito o transplante<br> de Córnea?</h3>
+                        <p>Para ser submetido ao transplante de córnea, o paciente passa por anestesia local, além de ficar sob sedação intravenosa. 
+                            A depender do caso, o especialista pode solicitar a anestesia geral. O procedimento é indolor e,
+                             normalmente, não necessita de internação hospitalar, com a liberação do paciente ocorrendo após 
+                             um breve repouso. </p>
+                        <a href="#" class="bntproj">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide-container">
+                <div class="slide">
+                    
+                    <div class="contentproje">
+                        <h3>Quem pode ser um doador?</h3>
+                        <p>Em pessoas que tiveram morte por parada cardíaca ou morte encefálica,
+                             a retirada deve ser em um tempo igual ou inferior a 6 horas, com idade acima ou igual a 2 anos e abaixo de 80.
+                              Outros fatores podem fazer com que o prazo de retirada seja maior, podendo chegar até 24 horas 
+                              (neste caso o corpo do doador deverá estar sob refrigeração).</p>
+                        <a href="#" class="bntproj">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div id="prev"> < </div>
+            <div id="next"> > </div>
+        </section>
+
+
+        <!-- Cards Responsivos -->
+
+
+        <main class="cards">
+            <section class="card cornea">
+                <div class="icon">
+                    <img src="./image/logoCornea.png" alt="Córnea">
+                </div>
+                <h3>Córnea</h3>
+                <span>Uma característica marcante da córnea é o fato de ser um tecido avascular, ou seja,
+                     sem a presença de vasos sanguíneos. A nutrição da membrana é mantida somente pelo humor aquoso, 
+                     pelo filme lacrimal e por difusão de vasos presentes no limbo.</span>
+                     <button class="espaço"><a href="https://institutoassadrayes.com.br/noticia/noticias/o-que-voce-precisa-saber-sobre-doacao-de-corneas">veja mais</a></button>
+            </section>
+            <section class="card transplante">
+                <div class="icon">
+                    <img src="./image/transplante.png" alt="Transplante">
+                </div>
+                <h3>Transplante</h3>
+                <span>Através do microscópio cirúrgico, o oftalmologista faz a medida exata do olho para definir a área do transplante. Desse modo, a córnea doente é retirada por um método de incisão circular.  A córnea saudável é colocada na área demarcada e fixada através de suturas. 
+                    </span>
+                    <button class="espaço"><a href="https://www.saude.df.gov.br/web/guest/w/transplante-de-cornea-entenda-como-funciona-o-procedimento">veja mais</a></button>
+            </section>
+            <section class="card doador">
+                <div class="icon">
+                    <img src="./image/doador.png" alt="Córnea">
+                </div>
+                <h3>Doador</h3>
+                <span>Para este tipo de doação, é necessária a autorização da família, então o que você pode fazer é informar a sua família em vida do seu desejo de tornar-se um doador. Podem autorizar a doação: irmão, cônjuge, pai, mãe, filhos, avô, avó e netos.</span>
+                <button class="espaço"><a href="https://www.into.saude.gov.br/banco-de-tecidos/banco-de-olhos">veja amis</a></button>
+            </section>
+        </main>
+        <br>
+        <br>
+        <br>
+        
+       <img src="image/faixinha.png">
+
+      <section class="container">
+        <div class="cardNovo">
+            <div class="card-image car-1"></div>
+            <div class="titleCard">
+                <h2>Córnea(interior)</h2>
+            </div>
+            <p>Uma característica marcante da córnea é o fato de ser um tecido avascular, ou seja, 
+                sem a presença de vasos sanguíneos. A nutrição da membrana é mantida somente pelo humor aquoso, 
+                pelo filme lacrimal e por difusão de vasos presentes no limbo.</p>
+        </div>
+        <div class="cardNovo">
+            <div class="card-image car-2"></div>
+            <div class="titleCard">
+                <h2>Sobre o transplante</h2>
+            </div>
+            <p>Através do microscópio cirúrgico, o oftalmologista faz a medida
+                 exata do olho para definir a área do transplante. Desse modo, a córnea doente é 
+                 retirada por um método de incisão circular.  A córnea saudável é colocada na área demarcada
+                  e fixada através de suturas. </p>
+        </div>
+        <div class="cardNovo">
+            <div class="card-image car-3"></div>
+            <div class="titleCard">
+                <h2>Sobre doar</h2>
+            </div>
+            <p>Podem autorizar a doação: irmão, cônjuge, pai, mãe, filhos, avô, avó e netos. 
+                Duas testemunhas precisam estar presentes para a autorização da doação.</p>
+        </div>
+      </section>
+      </div>
+
+      <img src="image/faixinha.png">
+
+      <div class="colaboradores"> 
+        <h1 class="titulo"> Alunos </h1>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <img src="image/avatar-de-perfil.png" alt="Person" class="card__image">
+          <p class="card__name">Guilherme Pereira</p>
+          <div class="grid-container">
+      
+            <div class="grid-child-posts">
+          
+            </div>
+      
+            <div class="grid-child-followers">
+            
+            </div>
+      
+          </div>
+          <ul class="social-icons">
+
+          </ul>
+          <button class="btn draw-border">Follow</button>
+          <button class="btn draw-border">Message</button>
+      
+        </div>
+        <div class="card">
+          <img src="https://lh3.googleusercontent.com/oUUiPB9sq3ACq4bUaRmo8pgvC4FUpRRrQKcGIBSOsafawZfRpF1vruFeYt6uCfL6wGDQyvOi6Ez9Bpf1Fb7APKjIyVsft7FLGR6QqdRFTiceNQBm1In9aZyrXp33cZi9pUNqjHASdA=s170-no" alt="Person" class="card__image">
+          <p class="card__name">Felipe Alves</p>
+          <div class="grid-container">
+      
+            <div class="grid-child-posts">
+          
+            </div>
+      
+            <div class="grid-child-followers">
+        
+            </div>
+      
+          </div>
+          <ul class="social-icons">
+          </ul>
+          <button class="btn draw-border">Follow</button>
+          <button class="btn draw-border">Message</button>
+        </div>
+        <div class="card">
+          <img src="image/gustavo.png" alt="Person" class="card__image">
+          <p class="card__name">Gustavo alves</p>
+          <div class="grid-container">
+      
+            <div class="grid-child-posts">
+     
+            </div>
+      
+            <div class="grid-child-followers">
+           
+            </div>
+      
+          </div>
+          <ul class="social-icons">
+
+          </ul>
+          <button class="btn draw-border">Follow</button>
+          <button class="btn draw-border">Message</button>
+        </div>
+      </div>
+
+      <div class="colaboradores"> 
+        <h1 class="titulo"> Professores </h1>
+      </div>
+    
+      <div class="container">
+        <div class="card">
+          <img src="image/veinho.jpg" alt="Person" class="card__image">
+          <p class="card__name">Allan Vidal<br>Professor de DS</p>
+          <div class="grid-container">
+      
+            <div class="grid-child-posts">
+               
+            </div>
+      
+            <div class="grid-child-followers">
+            
+            </div>
+      
+          </div>
+          <ul class="social-icons">
+
+          </ul>
+          <button class="btn draw-border">Follow</button>
+          <button class="btn draw-border">Message</button>
+      
+        </div>
+        <div class="card">
+          <img src="image/menina.png" alt="Person" class="card__image">
+          <p class="card__name">Elaine Lima<br>Professora de Biologia</p>
+          <div class="grid-container">
+      
+            <div class="grid-child-posts">
+                
+            </div>
+                
+            <div class="grid-child-followers">
+        
+            </div>
+      
+          </div>
+          <ul class="social-icons">
+          </ul>
+          <button class="btn draw-border">Follow</button>
+          <button class="btn draw-border">Message</button>
+        </div>
+      
+      </div>
+      
+
+        <script src="./js/scriptCarrousel.js"></script>
+
+        <!-- Footer  -->
+
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <img src="image/logoCornea.png">
+                    <p> It's all about your dreams.</p>
+
+                    <div id="footer_social_media">
+                        <a href="#" class="Footer-link" id="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="Footer-link" id="Facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                            
+                        </a>
+
+                        <a href="#" class="Footer-link" id="Whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="footer-list">
+                    
+            
+                    <li>
+                        <h3>Blog</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Suporte</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Tech</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Contato</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Produtos</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">App</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Desktop</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Cloud</a>
+                    </li>
+                </ul>
+
+                <div id="footer_subscribe">
+                    <h3>Inscreva-se</h3>
+
+                    <p>Veja seu e-mail para ser notificado sobre nossas novas informações.</p>
+
+                    <div id="input_group">
+                        <input type="email" id="email">
+                        <button>
+                            <i class="fa-solid fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+                <div id="Footer_copyright">
+                    &#169
+                    2023 Todos os Direitos Reservados.
+                </div>
+            </div>
+
+           
+        </footer>
+    </body>
+</html>
