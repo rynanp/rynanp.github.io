@@ -170,18 +170,23 @@ header {
 }
 
 .containerproje .slide-container .slide .contentproje h3{
-    font-size: 75px;
+    font-size: 30px;
     color: #0fe3fb;
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
+    margin-top: 10%;
+    background-color: #024d98;
+    text-align: center;
+    border-radius: 18px;
 }
 
 .containerproje .slide-container .slide .contentproje p{
-    font-size:20px;
+    font-size:13px;
     color: #fbfbfb;
     font-family: 'Inter';
     width: 40%;
     height: 10%;
+    line-height: 25px;
 }
 
 .containerproje .slide-container .slide .contentproje .bntproj{
@@ -317,6 +322,7 @@ header {
 main.cards{
     display: flex;
     padding: 32px;
+    overflow-y: hidden;
 }
 
 main.cards section.card{
@@ -329,6 +335,19 @@ main.cards section.card{
     max-height: 256px;
     margin-left: 32px;
     transition: transform 0.2s ease-in-out;
+    overflow-y: hidden;
+}
+
+main.cards section.card span{
+    overflow-y: hidden;
+}
+
+main.cards section.card .icon{
+    overflow-y: hidden;
+}
+
+main.cards section.card h3{
+    overflow-y: hidden;
 }
 
 main.cards section.card:first-child{
@@ -349,6 +368,7 @@ main.cards section.card button{
     font-size: 80%;
     font-weight: 900;
     color: #ffff;
+    overflow-y: hidden;
 }
 
 main.cards section.card.cornea button{
@@ -383,6 +403,7 @@ main.cards section.card{
 
     main.cards section.card button{
         font-size: 70%;
+        
     }
 }
 
@@ -666,7 +687,7 @@ footer{
     transition-delay: 0s, 0.25s, 0s;
   }
   
-  .btn {
+  .btn{
     background: none;
     border: none;
     cursor: pointer;
@@ -748,6 +769,8 @@ footer{
 }
 .espaço a{
     color: #000000;
+    text-decoration: none;
+    font-weight: 900;
 }
 .colaboradores{
     text-align: center;

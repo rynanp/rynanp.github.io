@@ -45,9 +45,11 @@
 
                 <div class="nav-list">
                     <ul>
-                        <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Quem pode doar</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Transplante</a></li>
+                        <p id="menu">
+                        <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
+                        <li class="nav-item"><a href="#doar" class="nav-link">Quem pode doar</a></li>
+                        <li class="nav-item"><a href="#transplante" class="nav-link">Transplante</a></li>
+                        </p>
                     </ul>
                 </div>
 
@@ -62,9 +64,9 @@
 
             <div class="mobile-menu">
                 <ul>
-                    <li class="nav-item"><a href="index.html.containerproje" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Quem pode doar</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">transplante</a></li>
+                    <li class="nav-item"><a href="#home1" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#transplante1" class="nav-link">Quem pode doar</a></li>
+                    <li class="nav-item"><a href="#transplante1" class="nav-link">transplante</a></li>
                 </ul>
 
                 <div class="login-button">
@@ -79,12 +81,14 @@
                 <div class="slide">
                     <div class="contentproje">
                         <h3>O que é a Córnea?</h3>
+                        <br>
+                        <br>
                         <p><span class="textoCornea">A córnea é um tecido translúcido, fino e resistente localizado na superfície do olho. Por revestir o globo ocular, 
                             ela se torna a primeira interface que a luz atravessa. Desse modo, além de proteger os olhos de ameaças 
                             externas, a córnea funciona como uma porta de entrada para a luz, que será focalizada primeiro por essa 
                             membrana. Outras partes do olho responsáveis pelo foco são a íris e a pupila, e só depois de passar por elas
                              a imagem chegará ao destino final: a retina.</span> </p>
-                        <a href="#" class="bntproj">Saiba mais</a>
+                        <a href="#cornea" class="bntproj">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -93,11 +97,13 @@
                 <div class="slide">
                     <div class="contentproje">
                         <h3>Como é feito o transplante<br> de Córnea?</h3>
+                        <br>
+                        <br>
                         <p>Para ser submetido ao transplante de córnea, o paciente passa por anestesia local, além de ficar sob sedação intravenosa. 
                             A depender do caso, o especialista pode solicitar a anestesia geral. O procedimento é indolor e,
                              normalmente, não necessita de internação hospitalar, com a liberação do paciente ocorrendo após 
                              um breve repouso. </p>
-                        <a href="#" class="bntproj">Saiba mais</a>
+                        <a href="#transplante1" class="bntproj">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -107,11 +113,13 @@
                     
                     <div class="contentproje">
                         <h3>Quem pode ser um doador?</h3>
+                        <br>
+                        <br>
                         <p>Em pessoas que tiveram morte por parada cardíaca ou morte encefálica,
                              a retirada deve ser em um tempo igual ou inferior a 6 horas, com idade acima ou igual a 2 anos e abaixo de 80.
                               Outros fatores podem fazer com que o prazo de retirada seja maior, podendo chegar até 24 horas 
                               (neste caso o corpo do doador deverá estar sob refrigeração).</p>
-                        <a href="#" class="bntproj">Saiba mais</a>
+                        <a href="#doar" class="bntproj" id="doar">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -123,6 +131,8 @@
 
 
         <!-- Cards Responsivos -->
+      
+
 
 
         <main class="cards">
@@ -130,7 +140,7 @@
                 <div class="icon">
                     <img src="./image/logoCornea.png" alt="Córnea">
                 </div>
-                <h3>Córnea</h3>
+                <h3 id="#cornea">Córnea</h3>
                 <span>Uma característica marcante da córnea é o fato de ser um tecido avascular, ou seja,
                      sem a presença de vasos sanguíneos. A nutrição da membrana é mantida somente pelo humor aquoso, 
                      pelo filme lacrimal e por difusão de vasos presentes no limbo.</span>
@@ -140,7 +150,7 @@
                 <div class="icon">
                     <img src="./image/transplante.png" alt="Transplante">
                 </div>
-                <h3>Transplante</h3>
+                <h3 id="#doar">Transplante</h3>
                 <span>Através do microscópio cirúrgico, o oftalmologista faz a medida exata do olho para definir a área do transplante. Desse modo, a córnea doente é retirada por um método de incisão circular.  A córnea saudável é colocada na área demarcada e fixada através de suturas. 
                     </span>
                     <button class="espaço"><a href="https://www.saude.df.gov.br/web/guest/w/transplante-de-cornea-entenda-como-funciona-o-procedimento">veja mais</a></button>
@@ -149,22 +159,22 @@
                 <div class="icon">
                     <img src="./image/doador.png" alt="Córnea">
                 </div>
-                <h3>Doador</h3>
+                <h3 class="textoCard">Doador</h3>
                 <span>Para este tipo de doação, é necessária a autorização da família, então o que você pode fazer é informar a sua família em vida do seu desejo de tornar-se um doador. Podem autorizar a doação: irmão, cônjuge, pai, mãe, filhos, avô, avó e netos.</span>
-                <button class="espaço"><a href="https://www.into.saude.gov.br/banco-de-tecidos/banco-de-olhos">veja amis</a></button>
+                <button class="espaço"><a href="https://www.into.saude.gov.br/banco-de-tecidos/banco-de-olhos">veja mais</a></button>
             </section>
         </main>
         <br>
         <br>
         <br>
         
-       <img src="image/faixinha.png">
+       <img src="image/faixinha.png"> <p id="transplante"></p> <p id="transplante"></p>
 
       <section class="container">
         <div class="cardNovo">
             <div class="card-image car-1"></div>
             <div class="titleCard">
-                <h2>Córnea(interior)</h2>
+                <p id="cornea">Córnea(interior)</p>
             </div>
             <p>Uma característica marcante da córnea é o fato de ser um tecido avascular, ou seja, 
                 sem a presença de vasos sanguíneos. A nutrição da membrana é mantida somente pelo humor aquoso, 
@@ -173,15 +183,18 @@
         <div class="cardNovo">
             <div class="card-image car-2"></div>
             <div class="titleCard">
-                <h2>Sobre o transplante</h2>
+                <h2><p id="transplante1">Sobre o transplante</p></h2>
             </div>
             <p>Através do microscópio cirúrgico, o oftalmologista faz a medida
                  exata do olho para definir a área do transplante. Desse modo, a córnea doente é 
                  retirada por um método de incisão circular.  A córnea saudável é colocada na área demarcada
                   e fixada através de suturas. </p>
         </div>
+        
         <div class="cardNovo">
+            <p id="doar"></p>
             <div class="card-image car-3"></div>
+            
             <div class="titleCard">
                 <h2>Sobre doar</h2>
             </div>
@@ -215,8 +228,10 @@
           <ul class="social-icons">
 
           </ul>
-          <button class="btn draw-border">Follow</button>
-          <button class="btn draw-border">Message</button>
+          <a href="https://www.linkedin.com/in/guilherme-pereira-370575269/">
+            <button class="btn draw-border"><img src="image/linkedin.png" id="linkedln"></button>
+          </a>
+          
       
         </div>
         <div class="card">
@@ -235,8 +250,9 @@
           </div>
           <ul class="social-icons">
           </ul>
-          <button class="btn draw-border">Follow</button>
-          <button class="btn draw-border">Message</button>
+          <a href="https://www.linkedin.com/in/felipe-alves-93029a279/">
+            <button class="btn draw-border"><img src="image/linkedin.png" id="linkedln"></button>
+          </a>
         </div>
         <div class="card">
           <img src="image/gustavo.png" alt="Person" class="card__image">
@@ -255,8 +271,10 @@
           <ul class="social-icons">
 
           </ul>
-          <button class="btn draw-border">Follow</button>
-          <button class="btn draw-border">Message</button>
+          <a href="#">
+            <button class="btn draw-border"><img src="image/linkedin.png" id="linkedln"></button>
+          </a>
+          
         </div>
       </div>
 
@@ -267,7 +285,7 @@
       <div class="container">
         <div class="card">
           <img src="image/veinho.jpg" alt="Person" class="card__image">
-          <p class="card__name">Allan Vidal<br>Professor de DS</p>
+          <p class="card__name"><br></p>
           <div class="grid-container">
       
             <div class="grid-child-posts">
@@ -282,13 +300,13 @@
           <ul class="social-icons">
 
           </ul>
-          <button class="btn draw-border">Follow</button>
-          <button class="btn draw-border">Message</button>
+          <button class="btn draw-border">Allan Vidal</button>
+          <button class="btn draw-border">Professor de DS</button>
       
         </div>
         <div class="card">
           <img src="image/menina.png" alt="Person" class="card__image">
-          <p class="card__name">Elaine Lima<br>Professora de Biologia</p>
+          <p class="card__name"><br></p>
           <div class="grid-container">
       
             <div class="grid-child-posts">
@@ -302,8 +320,8 @@
           </div>
           <ul class="social-icons">
           </ul>
-          <button class="btn draw-border">Follow</button>
-          <button class="btn draw-border">Message</button>
+          <button class="btn draw-border">Elaine Lima</button>
+          <button class="btn draw-border">Professora de Biologia</button>
         </div>
       
       </div>
@@ -316,7 +334,7 @@
         <footer>
             <div id="footer_content">
                 <div id="footer_contacts">
-               
+
                     <p> It's all about your dreams.</p>
 
                     <div id="footer_social_media">
@@ -369,6 +387,7 @@
 
                 <div id="footer_subscribe">
                     <h3>Inscreva-se</h3>
+                    <a href="#menu"> voltar ao topo</a>
 
                     <p>Veja seu e-mail para ser notificado sobre nossas novas informações.</p>
 
